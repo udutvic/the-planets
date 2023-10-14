@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/styles.css"
+    />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>Mercury</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1><a href="#">THE PLANETS</a></h1>
+      <nav>
+        <button class="menu-btn"></button>
+        <ul class="active">
+          <li><a href="#">mercury</a></li>
+          <li><a href="./pages/venus.html">venus</a></li>
+          <li><a href="./pages/earth.html">earth</a></li>
+          <li><a href="./pages/mars.html">mars</a></li>
+          <li><a href="./pages/jupiter.html">jupiter</a></li>
+          <li><a href="./pages/saturn.html">saturn</a></li>
+          <li><a href="./pages/uranus.html">uranus</a></li>
+          <li><a href="./pages/neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="planet mercury container">
+      <div class="planet__bg">
+        <img
+          class="planet__bg-structure active"
+          src="./assets/img/mercury/m-structure.svg"
+          alt=""
+        />
+        <img
+          class="planet__bg-geology active"
+          src="./assets/img/mercury/m-geology.png"
+          alt=""
+        />
+      </div>
+      <section class="planet__content">
+        <article>
+          <h2 class="planet__content-title">mercury</h2>
+          <p class="planet__content-text">
+            Mercury is the smallest planet in the Solar System and the closest to the Sun.
+            Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's
+            planets. Mercury is one of four terrestrial planets in the Solar System, and
+            is a rocky body like Earth. 
+          </p>
+          <div class="planet__content-source">
+            Source :
+            <a
+              href="https://en.wikipedia.org/wiki/Mercury_(planet)"
+              target="_blank"
+              >Wikipedia</a
+            >
+          </div>
+        </article>
+        <article>
+          <ul class="planet__content-menu">
+            <li class="planet__content-item active"><span>01</span>overview</li>
+            <li class="planet__content-item active"><span>02</span>internal structure</li>
+            <li class="planet__content-item active"><span>03</span>surface geology</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer class="footer container">
+      <article class="footer__item">
+        <h3>ROTATION TIME</h3>
+        <p>58.6 days</p>
+      </article>
+      <article class="footer__item">
+        <h3>REVOLUTION TIME</h3>
+        <p>87.97 days</p>
+      </article>
+      <article class="footer__item">
+        <h3>radius</h3>
+        <p>2,439.7 km</p>
+      </article>
+      <article class="footer__item">
+        <h3>AVERAGE TEMP.</h3>
+        <p>430°c</p>
+      </article>
+    </footer>
+  </body>
+</html>
